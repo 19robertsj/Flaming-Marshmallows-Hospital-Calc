@@ -56,7 +56,7 @@ def multiplication
 end
 
 def division
-  fun_fact = ["you are taller in the morning than in the evening","your stomach manufactures a new lining every three days to avoid digesting itself","in a group of 23 people, at least two have the same birthday with the probability greater than 1/2", "12+3-4+5+67+8+9=100 and there exists at least one other representation of 100 with 9 digits in the right order and math operations in between","one can cut a pie into 8 pieces with three movements", "a sphere has two sides; however, there are one-sided surfaces","0!=1"]
+  fun_fact = ["you are taller in the morning than in the evening","your stomach manufactures a new lining every three days to avoid digesting itself","in a group of 23 people, at least two have the same birthday with the probability greater than 1/2", "12+3-4+5+67+8+9=100 and there exists at least one other representation of 100 with 9 digits in the right order and math operations in between","one can cut a pie into 8 pieces with three movements", "a sphere has two sides; however, there are one-sided surfaces","0!=1","banging your head against a wall burns 150 calories an hour","when hippos are upset, their sweat turns red"."a flock of crows is known as a murder","human saliva has a boiling point three times that of regular water"]
   puts "Enter the first number you would like to divide: "
   num1 = gets.chomp
   puts "Enter the second number you would like to divide: "
@@ -71,7 +71,7 @@ def decide_where_to_go(operation)
     puts addition
   elsif operation == "subtract" || operation == "subtraction"
     puts subtraction
-  elsif operation == "mulitply" || operation == "multiplication"
+  elsif operation == "multiply" || operation == "multiplication"
     puts multiplication
   elsif operation == "divide" || operation == "division"
     puts division
